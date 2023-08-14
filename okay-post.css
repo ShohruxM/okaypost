@@ -124,3 +124,26 @@ font-style: normal;
 font-weight: 700;
 line-height: 18px; /* 105.882% */
 }
+.box>.container>h2{
+    width: 477px;
+    height: 100px;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 44px;
+font-style: normal;
+font-weight: 800;
+line-height: 50px; /* 113.636% */
+}
+.box-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-item{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.box-item>img:nth-child(1) {
+    margin:  10px;
+}

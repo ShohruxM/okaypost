@@ -16,6 +16,9 @@ a{
 ul, ol{
     list-style: none;
 }
+body{
+    background-color: #f8f6f6;
+}
 header{
     background: var(--4, #FFF);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
@@ -495,6 +498,7 @@ main .container> button{
 height: 66px;
 border: none;
 margin-top: 30px;
+margin-bottom: 150px;
 border-radius: 36px;
 background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
 box-shadow: 0px 4px 4px 0px #01CB7C33;
@@ -505,4 +509,64 @@ font-size: 17px;
 font-style: normal;
 font-weight: 700;
 line-height: 18px; /* 105.882% */
+}
+.wrapper{
+    height: 724px;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.wrapper>.container>h2{
+    width: 834px;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 44px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 127.273% */
+}
+.wrapper>.container>p{
+    width: 604px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color:  var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 180% */
+}
+.wrapper-list{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-item{
+    border-radius: 16px;
+background: var(--5, #FFF);
+box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    width: 447px;
+height: 250px;
+padding: 37px;
+flex-shrink: 0;
+}
+.wrapper-item>img{
+    padding-bottom: 30px;
+}
+.wrapper-item>h4{
+    width: 369px;
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 111.111% */
+}
+.wrapper-item>p{
+    width: 363px;
+    padding-top: 10px;  
+    color: var(--1, #1F2428);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; /* 162.5% */
 }
